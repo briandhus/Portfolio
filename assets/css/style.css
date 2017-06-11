@@ -238,3 +238,44 @@ input[type=submit] {
   border: 0 none;
 }
 
+@media screen and (max-width: 980px) {
+  .container {
+    max-width: 750px;
+  }
+
+  .main-section {
+    max-width: 440px;
+  }
+
+  .auth-image {
+    width: 100%;
+  }
+
+  p {
+    float: left;
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 630px;
+  }
+
+  .main-section {
+    min-width: 100%;
+  }
+
+  .auth-image {
+    /*float: left;*/
+    max-width: 50%;
+    display: inline-block;
+  }
+
+  p {
+    padding: 0;
+    /*float: left;*/
+    display: inline;
+  }
+  
+}
