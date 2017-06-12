@@ -249,11 +249,11 @@ input[type=submit] {
 
   .auth-image {
     width: 100%;
+    padding-bottom: 20px;
   }
 
   p {
     float: left;
-    padding-top: 20px;
   }
 }
 
@@ -274,6 +274,7 @@ input[type=submit] {
 
   p {
     padding: 0;
+    float: none;
   }
 
   .sidebar {
@@ -302,6 +303,15 @@ input[type=submit] {
   nav {
     width: 100%;
     padding-left: 24%;
+  }
+
+  .auth-image {
+    min-width: 100%;
+    padding-bottom: 20px;
+  }
+
+  p {
+    float: left;
   }
 
   /*portfolio page*/
