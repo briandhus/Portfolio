@@ -291,6 +291,10 @@ input[type=submit] {
     position: static;
   }
 
+  #main-container {
+    padding-top: 0;
+  }
+
   #logo {
     width: 100%;
     }
@@ -298,5 +302,10 @@ input[type=submit] {
   nav {
     width: 100%;
     padding-left: 24%;
+  }
+
+  /*portfolio page*/
+  .work {
+    width: 100%
   }
 }
